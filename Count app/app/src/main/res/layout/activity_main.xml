@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:textSize="100sp"
+        android:textColor="#031681"
+        android:text="0"
+        android:gravity="center"
+        android:background="#FFEB3B"
+        android:layout_weight="0.8"
+        android:id="@+id/textcount"/>
+
+
+    <LinearLayout
+        tools:context=".MainActivity"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#FDFCFC"
+        android:text="+"
+        android:background="#E91E63"
+        android:id="@+id/inc"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#FDFCFC"
+        android:text="-"
+        android:background="#2196F3"
+        android:id="@+id/dec"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#FDFCFC"
+        android:text="0"
+        android:background="#4CAF50"
+        android:id="@+id/zero"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:textColor="#FDFCFC"
+        android:text="Toast"
+        android:background="#F44336"
+        android:id="@+id/toast"
+        android:onClick="display"/>
+
+</LinearLayout>
+
+</LinearLayout>
